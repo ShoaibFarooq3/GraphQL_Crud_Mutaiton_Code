@@ -1,5 +1,9 @@
 import { GraphQLServer } from "graphql-yoga";
 import uuidv4 from "uuid/v4";
+import express from "express";
+import cors from "cors";
+import { graphqlHTTP } from "express-graphql";
+import { makeExecutableSchema } from "@graphql-tools/schema";
 // Demo User Data
 let users = [
   {
@@ -200,7 +204,7 @@ const resolvers = {
       const userIndex = users.findIndex((user) => user.id === args.id);
 
       if (userIndex === -1) {
-        throw new Error("User not found");
+        throw new Error("User not found!");
       }
 
       const deletedUsers = users.splice(userIndex, 1);
