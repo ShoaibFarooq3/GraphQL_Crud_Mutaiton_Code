@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@graphql-tools/schema": "^9.0.16",
+    "apollo-server": "^3.11.1",
     "babel-cli": "^6.26.0",
     "babel-node": "^0.0.1-security",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
