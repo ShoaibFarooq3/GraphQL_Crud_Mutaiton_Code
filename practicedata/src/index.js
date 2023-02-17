@@ -6,10 +6,6 @@ import Mutation from "./resolvers/Mutation";
 import Post from "./resolvers/Post";
 import User from "./resolvers/User";
 
-// Resolvers
-const resolvers = {};
-
-// Server starting
 const server = new GraphQLServer({
   typeDefs: "./src/schema.graphql",
   resolvers: {

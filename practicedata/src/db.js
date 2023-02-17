@@ -18,21 +18,21 @@ const users = [
 ];
 const posts = [
   {
-    id: "101",
+    id: "10",
     title: "React js",
     body: "This is test body for Testing 01...",
     published: true,
     author: "1",
   },
   {
-    id: "102",
+    id: "11",
     title: "Graph QL",
     body: "This is test body for graph...",
     published: true,
     author: "2",
   },
   {
-    id: "103",
+    id: "12",
     title: "Node JS",
     body: "This is test body for Node ...",
     published: false,
