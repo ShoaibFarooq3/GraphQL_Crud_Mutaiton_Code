@@ -1,5 +1,3 @@
-//     "mongodb+srv://shoaibfarooq3:O9xgsh1wYCMUR6wq@cluster0.8vohzm7.mongodb.net/?retryWrites=true&w=majority",
-
 const users = [
   {
     id: "1",
