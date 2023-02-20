@@ -1,32 +1,4 @@
-// const mongoose = require("mongoose");
-// const { MongoClient } = require("mongodb");
-// mongoose.set("strictQuery", true);
-// mongoose
-//   .connect(
 //     "mongodb+srv://shoaibfarooq3:O9xgsh1wYCMUR6wq@cluster0.8vohzm7.mongodb.net/?retryWrites=true&w=majority",
-//     {
-//       useNewUrlParser: true,
-//       useUnifiedTopology: true,
-//     }
-//   )
-//   .then(() => console.log("MongoDB connected"))
-//   .catch((err) => console.log(err));
-// const uri =
-//   "mongodb+srv://shoaibfarooq3:O9xgsh1wYCMUR6wq@cluster0.8vohzm7.mongodb.net/?retryWrites=true&w=majority";
-// // const { MongoClient } = require("mongodb");
-
-// const client = new MongoClient(uri);
-
-// async function resolve(parent, args, context, info) {
-//   await client.connect();
-
-//   const db = client.db();
-//   const collection = db.collection("mycollection");
-
-//   const result = await collection.find({ field: args.input }).toArray();
-
-//   return result;
-// }
 
 const users = [
   {
